@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'constent_variable.dart';
 import 'Repeate_contanier.dart';
@@ -12,7 +13,7 @@ class Resultfind extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('BMI RESULT'),
+          title: Text('BMI RESULT', style: TextStyle(color: Colors.black, fontSize: 30.0, fontWeight: FontWeight.bold),),
         ),
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -54,9 +55,9 @@ class Resultfind extends StatelessWidget {
                 },
                 child: Container(
                   child: Center(
-                    child: Text('Again Calculate', style: ConstentTextLabe3),
+                    child: Text('Re-Calculate', style: ConstentTextLabe3),
                   ),
-                  color: Colors.black,
+                  color: Colors.green,
                   height: 40,
                   width: double.infinity,
                   margin: EdgeInsets.only(top: 30),
