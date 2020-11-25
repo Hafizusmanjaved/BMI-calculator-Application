@@ -18,3 +18,7 @@ samples, guidance on mobile development, and a full API reference.
 # Splash Screen
 
 ![Screenshot_2020-11-25-23-38-04-26](https://user-images.githubusercontent.com/74734657/100269055-c654ec00-2f77-11eb-95bc-e641581e4fd8.png)
+
+# Main UI
+
+![Screenshot_2020-11-25-23-38-45-46](https://user-images.githubusercontent.com/74734657/100269063-c8b74600-2f77-11eb-8df3-a60c85fce0de.png)
