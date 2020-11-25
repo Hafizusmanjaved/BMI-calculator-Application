@@ -22,3 +22,8 @@ samples, guidance on mobile development, and a full API reference.
 # Main UI
 
 ![Screenshot_2020-11-25-23-38-45-46](https://user-images.githubusercontent.com/74734657/100269063-c8b74600-2f77-11eb-8df3-a60c85fce0de.png)
+
+# Result Page
+
+![Screenshot_2020-11-25-23-39-03-47](https://user-images.githubusercontent.com/74734657/100269072-cb19a000-2f77-11eb-908f-33dc45b528d8.png)
+
