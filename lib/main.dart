@@ -40,11 +40,11 @@ class _MySplashScreenState extends State<MySplashScreen> {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
-         // Image.asset('images/bmi1.png', height: 250.0, width: 250,),
+          Image.asset('images/bb.png', height: 250.0, width: 250,),
 
           SizedBox( height: 30.0),
 
-          SpinKitRipple(color: Colors.red, size: 150.0, borderWidth: 10.0,),
+          SpinKitRipple(color: Colors.yellowAccent, size: 150.0, borderWidth: 30.0,),
         ],
       ),
     );
