@@ -86,7 +86,7 @@ class _InputPageState extends State<InputPage> {
               children: [
                 Expanded(
                   child: Repeate_contanier(
-                    colors: Color(0xFF1D1E33),
+                    colors: Colors.blue[900],
                     cardWidge: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
@@ -106,10 +106,10 @@ class _InputPageState extends State<InputPage> {
                         ),
                         Slider(
                           value: slider_height.toDouble(),
-                          min: 100.0,
-                          max: 230.0,
-                          activeColor: Colors.green,
-                          inactiveColor: Colors.white,
+                          min: 70.0,
+                          max: 250.0,
+                          activeColor: Colors.black,
+                          inactiveColor: Colors.red,
                           onChanged: (double newvalue) {
                             setState(() {
                               slider_height = newvalue.round();
@@ -132,7 +132,7 @@ class _InputPageState extends State<InputPage> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Text(
-                          'WEGHT',
+                          'WEIGHT',
                           style: ConstentTextLabel,
                         ),
                         Row(
@@ -159,7 +159,7 @@ class _InputPageState extends State<InputPage> {
                                 });
                               },
                             ),
-                            SizedBox(width: 5),
+                            SizedBox(width: 20),
                             RoundIcon(
                               icondata: FontAwesomeIcons.plus,
                               onPress: () {
@@ -172,7 +172,7 @@ class _InputPageState extends State<InputPage> {
                         )
                       ],
                     ),
-                    colors: Colors.blue,
+                    colors: Colors.black,
                   ),
                 ),
                 Expanded(
@@ -193,7 +193,7 @@ class _InputPageState extends State<InputPage> {
                                   });
                                 },
                               ),
-                              SizedBox(width: 5),
+                              SizedBox(width: 20),
                               RoundIcon(
                                 icondata: FontAwesomeIcons.plus,
                                 onPress: () {
@@ -206,7 +206,7 @@ class _InputPageState extends State<InputPage> {
                           )
                         ],
                       ),
-                      colors: Colors.blue),
+                      colors: Colors.black),
                 ),
               ],
             ),
@@ -259,7 +259,7 @@ class RoundIcon extends StatelessWidget {
       elevation: 6,
       constraints: BoxConstraints.tightFor(height: 50.0, width: 50.0),
       shape: CircleBorder(),
-      fillColor: Colors.green,
+      fillColor: Colors.blueAccent,
     );
   }
 }
