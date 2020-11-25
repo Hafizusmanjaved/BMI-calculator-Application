@@ -19,13 +19,13 @@ class InputPage extends StatefulWidget {
 class _InputPageState extends State<InputPage> {
   Gender selectGender;
   int slider_height = 100;
-  int slider_weight = 40;
-  int sliderage = 20;
+  int slider_weight = 30;
+  int sliderage = 15;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('BMI Calculator'),
+        title: Text('BMI Calculator', style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold,fontSize: 30.0),),
       ),
       body: Column(
         children: [
